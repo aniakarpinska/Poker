@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main(void){
-std::cout << "eluwa" << std::endl;
+std::cout << "główny" << std::endl;
 return EXIT_SUCCESS;
   }
