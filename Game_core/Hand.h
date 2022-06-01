@@ -7,7 +7,7 @@
 
 enum HandType {
 	HT_NO_HAND,
-	HT_HIGH_CARD
+	HT_HIGH_CARD,
 	HT_PAIR,
 	HT_TWO_PAIR,
 	HT_STRAIGHT,
@@ -30,4 +30,5 @@ public:
   size_t GetCardCount() const { return m_hand.size(); }
   int hand_compare(const Hand* hand1, const Hand* hand2);
 private:
+	std::vector<Card> m_hand
 };
