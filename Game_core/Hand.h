@@ -1,5 +1,5 @@
 #ifndef HAND_H_
-#define HAND_H
+#define HAND_H_
 
 #include "Card.h"
 #include <string>
