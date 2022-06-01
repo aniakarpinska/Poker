@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <algorithm>
 #include "Deck.h"
-#include "CommonFunctions.h"
+#include "CommonFunctions.h
 
 namespace GameEngineCore {
 
