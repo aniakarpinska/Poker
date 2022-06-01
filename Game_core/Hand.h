@@ -7,7 +7,7 @@
 
 enum HandType {
 	HT_NO_HAND,
-	HT_HIGH_CARD,
+	HT_HIGH_CARD
 	HT_PAIR,
 	HT_TWO_PAIR,
 	HT_STRAIGHT,
