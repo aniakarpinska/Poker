@@ -27,10 +27,9 @@ typedef struct _HandValue {
 
 class Hand{
 public:
-  	size_t GetCardCount() const { return m_hand.size(); }
-  	int hand_compare(const Hand* hand1, const Hand* hand2);
-	
-	
-	HandValue& GetBestHandValue() 
+	const Card& operator[](int position) const;
+	size_t GetCardCount() const { return m_hand.size(); }
+  
 private:
+	int hand_compare(const Hand* hand1, const Hand* hand2);
 };
